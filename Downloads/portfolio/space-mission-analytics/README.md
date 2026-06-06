@@ -26,7 +26,13 @@ The project answers questions like:
 
 **[→ Open the dashboard](https://space-mission-analytics-6tvpwx4axn5wsd5xzzxrrm.streamlit.app/)**
 
-![Dashboard Preview](assets/dashboard_preview.png)
+| Overview | Agencies |
+|---|---|
+| ![Overview](assets/overview.png) | ![Agencies](assets/agencies.png) |
+
+| Rockets | Mission Explorer |
+|---|---|
+| ![Rockets](assets/rockets.png) | ![Explorer](assets/explorer.png) |
 
 ---
 
