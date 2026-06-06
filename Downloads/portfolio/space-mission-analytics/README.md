@@ -2,7 +2,7 @@
 
 > **60+ years of human spaceflight — from Sputnik to SpaceX — analysed, transformed, and visualised.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://kanishka-p-space-mission-analytics.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://space-mission-analytics-6tvpwx4axn5wsd5xzzxrrm.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![dbt](https://img.shields.io/badge/dbt-1.8-FF694B?style=for-the-badge&logo=dbt&logoColor=white)](https://getdbt.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
@@ -24,7 +24,7 @@ The project answers questions like:
 
 ## Live Dashboard
 
-**[→ Open the dashboard](https://kanishka-p-space-mission-analytics.streamlit.app)**
+**[→ Open the dashboard](https://space-mission-analytics-6tvpwx4axn5wsd5xzzxrrm.streamlit.app/)**
 
 ![Dashboard Preview](assets/dashboard_preview.png)
 
