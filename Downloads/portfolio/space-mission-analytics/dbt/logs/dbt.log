@@ -1,0 +1,744 @@
+==================== 2026-06-06T21:06:16.140675Z | 019e9ec2-05c0-7520-ac9e-3bfd8b401941 ====================
+21:06:16.142820 [info ]: dbt-core 2.0.0-alpha.1
+21:06:16.148283 [info ]: Started loading project
+21:06:16.169271 [info ]: Loading ~/.dbt/profiles.yml
+21:06:16.174172 [info ]: Finished loading project [  0.03s]
+21:06:16.175492 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+21:06:17.144998 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [1.0s]
+==================== 2026-06-06T21:08:47.781319Z | 019e9ec4-5617-7861-b92b-a573aef507c2 ====================
+21:08:47.784204 [info ]: dbt-core 2.0.0-alpha.1
+21:08:47.788001 [info ]: Started loading project
+21:08:47.807391 [info ]: Loading ~/.dbt/profiles.yml
+21:08:47.812456 [info ]: Finished loading project [  0.02s]
+21:08:47.813608 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+21:08:48.145680 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [364ms]
+==================== 2026-06-06T21:11:01.475851Z | 019e9ec6-6059-72a0-93f2-cec6369e1c8d ====================
+21:11:01.477303 [info ]: dbt-core 2.0.0-alpha.1
+21:11:01.479829 [info ]: Started loading project
+21:11:01.495050 [info ]: Loading ~/.dbt/profiles.yml
+21:11:01.500641 [info ]: Finished loading project [  0.02s]
+21:11:01.501713 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+21:11:01.736997 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [261ms]
+==================== 2026-06-06T21:11:19.408641Z | 019e9ec6-a66f-7ef2-91f1-a84a8ef211ac ====================
+21:11:19.408693 [info ]: dbt-core 2.0.0-alpha.1
+21:11:19.408831 [info ]: Started loading project
+21:11:19.409471 [info ]: Loading ~/.dbt/profiles.yml
+21:11:19.409872 [info ]: Finished loading project [  0.00s]
+21:11:19.409923 [error]: [InvalidConfig (dbt1005)]: The 'postgres' adapter is not yet supported by dbt Fusion. Supported adapters: snowflake, bigquery, databricks, redshift
+21:11:19.548692 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 1 error [140ms]
+[0m17:15:46.466931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114398ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1144cb800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1144cb440>]}
+
+
+============================== 17:15:46.471917 | 78b29246-1e30-4d1a-ac18-cdc770f39a48 ==============================
+[0m17:15:46.471917 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:15:46.472502 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kanishkapatre/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/kanishkapatre/Downloads/portfolio/space-mission-analytics/dbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:15:46.621626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1104bc980>]}
+[0m17:15:46.665846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114501970>]}
+[0m17:15:46.666997 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m17:15:46.790405 [debug] [MainThread]: checksum: 132857a23e9d07220246854f7763165174ce9b737cfc7867629ace4294e520b1, vars: {}, profile: , target: , version: 1.8.9
+[0m17:15:46.791167 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m17:15:46.791485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114bd94c0>]}
+[0m17:15:47.486343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1154383b0>]}
+[0m17:15:47.549132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11574b1d0>]}
+[0m17:15:47.549580 [info ] [MainThread]: Found 7 models, 433 macros
+[0m17:15:47.549930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1157464b0>]}
+[0m17:15:47.551533 [info ] [MainThread]: 
+[0m17:15:47.552006 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m17:15:47.555262 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m17:15:47.594578 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m17:15:47.606798 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m17:15:47.649651 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m17:15:47.650111 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m17:15:47.650403 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:15:47.650717 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m17:15:47.650988 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:15:47.651266 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:15:47.651584 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m17:15:47.651857 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:15:47.652929 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:15:48.570442 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.919 seconds
+[0m17:15:48.571706 [debug] [ThreadPool]: On list_postgres: Close
+[0m17:15:48.577287 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.925 seconds
+[0m17:15:48.577641 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.925 seconds
+[0m17:15:48.578762 [debug] [ThreadPool]: On list_postgres: Close
+[0m17:15:48.579694 [debug] [ThreadPool]: On list_postgres: Close
+[0m17:15:48.580568 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_analytics_dimensions)
+[0m17:15:48.580901 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_analytics_facts)
+[0m17:15:48.581279 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "analytics_dimensions"
+"
+[0m17:15:48.581553 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now create_postgres_analytics_staging)
+[0m17:15:48.581856 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "analytics_facts"
+"
+[0m17:15:48.586519 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_dimensions"
+[0m17:15:48.586932 [debug] [ThreadPool]: Creating schema "database: "postgres"
+schema: "analytics_staging"
+"
+[0m17:15:48.588595 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_facts"
+[0m17:15:48.589030 [debug] [ThreadPool]: On create_postgres_analytics_dimensions: BEGIN
+[0m17:15:48.591874 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_staging"
+[0m17:15:48.592171 [debug] [ThreadPool]: On create_postgres_analytics_facts: BEGIN
+[0m17:15:48.592432 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:48.592692 [debug] [ThreadPool]: On create_postgres_analytics_staging: BEGIN
+[0m17:15:48.592909 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:48.593231 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:49.396068 [debug] [ThreadPool]: SQL status: BEGIN in 0.803 seconds
+[0m17:15:49.396483 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_facts"
+[0m17:15:49.396736 [debug] [ThreadPool]: On create_postgres_analytics_facts: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "create_postgres_analytics_facts"} */
+create schema if not exists "analytics_facts"
+[0m17:15:49.432963 [debug] [ThreadPool]: SQL status: BEGIN in 0.840 seconds
+[0m17:15:49.433307 [debug] [ThreadPool]: SQL status: BEGIN in 0.841 seconds
+[0m17:15:49.433605 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_staging"
+[0m17:15:49.433876 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_dimensions"
+[0m17:15:49.434123 [debug] [ThreadPool]: On create_postgres_analytics_staging: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "create_postgres_analytics_staging"} */
+create schema if not exists "analytics_staging"
+[0m17:15:49.434377 [debug] [ThreadPool]: On create_postgres_analytics_dimensions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "create_postgres_analytics_dimensions"} */
+create schema if not exists "analytics_dimensions"
+[0m17:15:49.503270 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.106 seconds
+[0m17:15:49.504191 [debug] [ThreadPool]: On create_postgres_analytics_facts: COMMIT
+[0m17:15:49.504456 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_facts"
+[0m17:15:49.504679 [debug] [ThreadPool]: On create_postgres_analytics_facts: COMMIT
+[0m17:15:49.521572 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.087 seconds
+[0m17:15:49.522271 [debug] [ThreadPool]: On create_postgres_analytics_staging: COMMIT
+[0m17:15:49.522512 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_staging"
+[0m17:15:49.522726 [debug] [ThreadPool]: On create_postgres_analytics_staging: COMMIT
+[0m17:15:49.529793 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.095 seconds
+[0m17:15:49.530429 [debug] [ThreadPool]: On create_postgres_analytics_dimensions: COMMIT
+[0m17:15:49.530660 [debug] [ThreadPool]: Using postgres connection "create_postgres_analytics_dimensions"
+[0m17:15:49.530871 [debug] [ThreadPool]: On create_postgres_analytics_dimensions: COMMIT
+[0m17:15:49.597044 [debug] [ThreadPool]: SQL status: COMMIT in 0.092 seconds
+[0m17:15:49.597359 [debug] [ThreadPool]: On create_postgres_analytics_facts: Close
+[0m17:15:49.609592 [debug] [ThreadPool]: SQL status: COMMIT in 0.087 seconds
+[0m17:15:49.609850 [debug] [ThreadPool]: On create_postgres_analytics_staging: Close
+[0m17:15:49.619522 [debug] [ThreadPool]: SQL status: COMMIT in 0.088 seconds
+[0m17:15:49.619772 [debug] [ThreadPool]: On create_postgres_analytics_dimensions: Close
+[0m17:15:49.621051 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_postgres_analytics_staging, now list_postgres_analytics_dimensions)
+[0m17:15:49.625908 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_dimensions"
+[0m17:15:49.626274 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_postgres_analytics_dimensions, now list_postgres_analytics_facts)
+[0m17:15:49.626517 [debug] [ThreadPool]: On list_postgres_analytics_dimensions: BEGIN
+[0m17:15:49.626838 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_postgres_analytics_facts, now list_postgres_analytics_staging)
+[0m17:15:49.628401 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_facts"
+[0m17:15:49.628665 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:49.630100 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_staging"
+[0m17:15:49.630341 [debug] [ThreadPool]: On list_postgres_analytics_facts: BEGIN
+[0m17:15:49.630664 [debug] [ThreadPool]: On list_postgres_analytics_staging: BEGIN
+[0m17:15:49.630886 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:49.631098 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:15:50.444595 [debug] [ThreadPool]: SQL status: BEGIN in 0.814 seconds
+[0m17:15:50.445005 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_facts"
+[0m17:15:50.445287 [debug] [ThreadPool]: On list_postgres_analytics_facts: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres_analytics_facts"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_facts'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_facts'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_facts'
+  
+[0m17:15:50.460334 [debug] [ThreadPool]: SQL status: BEGIN in 0.829 seconds
+[0m17:15:50.460746 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_staging"
+[0m17:15:50.461029 [debug] [ThreadPool]: On list_postgres_analytics_staging: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres_analytics_staging"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_staging'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_staging'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_staging'
+  
+[0m17:15:50.473466 [debug] [ThreadPool]: SQL status: BEGIN in 0.845 seconds
+[0m17:15:50.473827 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics_dimensions"
+[0m17:15:50.474101 [debug] [ThreadPool]: On list_postgres_analytics_dimensions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "list_postgres_analytics_dimensions"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_dimensions'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_dimensions'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_dimensions'
+  
+[0m17:15:50.544198 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.099 seconds
+[0m17:15:50.545337 [debug] [ThreadPool]: On list_postgres_analytics_facts: ROLLBACK
+[0m17:15:50.558661 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.097 seconds
+[0m17:15:50.559714 [debug] [ThreadPool]: On list_postgres_analytics_staging: ROLLBACK
+[0m17:15:50.570518 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.096 seconds
+[0m17:15:50.571469 [debug] [ThreadPool]: On list_postgres_analytics_dimensions: ROLLBACK
+[0m17:15:50.633313 [debug] [ThreadPool]: On list_postgres_analytics_facts: Close
+[0m17:15:50.645709 [debug] [ThreadPool]: On list_postgres_analytics_staging: Close
+[0m17:15:50.665824 [debug] [ThreadPool]: On list_postgres_analytics_dimensions: Close
+[0m17:15:50.670929 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:50.671343 [debug] [MainThread]: On master: BEGIN
+[0m17:15:50.671606 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:15:51.479692 [debug] [MainThread]: SQL status: BEGIN in 0.808 seconds
+[0m17:15:51.480551 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:51.481360 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m17:15:51.579897 [debug] [MainThread]: SQL status: SELECT 1 in 0.098 seconds
+[0m17:15:51.582293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11446da00>]}
+[0m17:15:51.583011 [debug] [MainThread]: On master: ROLLBACK
+[0m17:15:51.666518 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:51.667257 [debug] [MainThread]: On master: BEGIN
+[0m17:15:51.842430 [debug] [MainThread]: SQL status: BEGIN in 0.174 seconds
+[0m17:15:51.843552 [debug] [MainThread]: On master: COMMIT
+[0m17:15:51.844083 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:51.844483 [debug] [MainThread]: On master: COMMIT
+[0m17:15:51.934953 [debug] [MainThread]: SQL status: COMMIT in 0.090 seconds
+[0m17:15:51.935685 [debug] [MainThread]: On master: Close
+[0m17:15:51.936697 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:15:51.937215 [info ] [MainThread]: 
+[0m17:15:51.941149 [debug] [Thread-1 (]: Began running node model.space_missions.stg_missions
+[0m17:15:51.941872 [info ] [Thread-1 (]: 1 of 7 START sql view model analytics_staging.stg_missions ..................... [RUN]
+[0m17:15:51.942457 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_analytics_dimensions, now model.space_missions.stg_missions)
+[0m17:15:51.942880 [debug] [Thread-1 (]: Began compiling node model.space_missions.stg_missions
+[0m17:15:51.951224 [debug] [Thread-1 (]: Writing injected SQL for node "model.space_missions.stg_missions"
+[0m17:15:51.952611 [debug] [Thread-1 (]: Began executing node model.space_missions.stg_missions
+[0m17:15:51.982585 [debug] [Thread-1 (]: Writing runtime sql for node "model.space_missions.stg_missions"
+[0m17:15:51.983686 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.stg_missions"
+[0m17:15:51.983996 [debug] [Thread-1 (]: On model.space_missions.stg_missions: BEGIN
+[0m17:15:51.984270 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:15:52.781787 [debug] [Thread-1 (]: SQL status: BEGIN in 0.797 seconds
+[0m17:15:52.783020 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.stg_missions"
+[0m17:15:52.784201 [debug] [Thread-1 (]: On model.space_missions.stg_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.stg_missions"} */
+
+  create view "postgres"."analytics_staging"."stg_missions__dbt_tmp"
+    
+    
+  as (
+    with source as (
+    select * from public.raw_space_missions
+),
+
+cleaned as (
+    select
+        mission                                         as mission_name,
+        company,
+        rocket,
+        location,
+        country,
+        date::date                                      as launch_date,
+        year::int                                       as launch_year,
+        decade::int                                     as launch_decade,
+        rocketstatus                                    as rocket_status,
+        missionstatus                                   as mission_status,
+        price                                           as cost_usd_millions,
+        case
+            when missionstatus = 'Success' then true
+            else false
+        end                                             as is_success,
+        case
+            when company in (
+                'SpaceX', 'Rocket Lab', 'Blue Origin',
+                'Virgin Orbit', 'Arianespace', 'ULA'
+            ) then 'Commercial'
+            else 'Government'
+        end                                             as sector
+    from source
+    where date is not null
+)
+
+select * from cleaned
+  );
+[0m17:15:52.889500 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.104 seconds
+[0m17:15:52.897305 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.stg_missions"
+[0m17:15:52.897772 [debug] [Thread-1 (]: On model.space_missions.stg_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.stg_missions"} */
+alter table "postgres"."analytics_staging"."stg_missions__dbt_tmp" rename to "stg_missions"
+[0m17:15:52.984355 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.086 seconds
+[0m17:15:53.006507 [debug] [Thread-1 (]: On model.space_missions.stg_missions: COMMIT
+[0m17:15:53.007115 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.stg_missions"
+[0m17:15:53.007577 [debug] [Thread-1 (]: On model.space_missions.stg_missions: COMMIT
+[0m17:15:53.095436 [debug] [Thread-1 (]: SQL status: COMMIT in 0.087 seconds
+[0m17:15:53.104674 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics_staging"."stg_missions__dbt_backup"
+[0m17:15:53.110586 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.stg_missions"
+[0m17:15:53.111104 [debug] [Thread-1 (]: On model.space_missions.stg_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.stg_missions"} */
+drop view if exists "postgres"."analytics_staging"."stg_missions__dbt_backup" cascade
+[0m17:15:53.198845 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.087 seconds
+[0m17:15:53.203040 [debug] [Thread-1 (]: On model.space_missions.stg_missions: Close
+[0m17:15:53.205563 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115404bf0>]}
+[0m17:15:53.206550 [info ] [Thread-1 (]: 1 of 7 OK created sql view model analytics_staging.stg_missions ................ [[32mCREATE VIEW[0m in 1.26s]
+[0m17:15:53.207438 [debug] [Thread-1 (]: Finished running node model.space_missions.stg_missions
+[0m17:15:53.208652 [debug] [Thread-3 (]: Began running node model.space_missions.agg_country_launches
+[0m17:15:53.209255 [debug] [Thread-4 (]: Began running node model.space_missions.agg_sector_by_year
+[0m17:15:53.210377 [debug] [Thread-2 (]: Began running node model.space_missions.agg_success_by_year
+[0m17:15:53.209937 [info ] [Thread-3 (]: 2 of 7 START sql view model analytics_facts.agg_country_launches ............... [RUN]
+[0m17:15:53.211571 [debug] [Thread-1 (]: Began running node model.space_missions.dim_agencies
+[0m17:15:53.211036 [info ] [Thread-4 (]: 3 of 7 START sql view model analytics_facts.agg_sector_by_year ................. [RUN]
+[0m17:15:53.212588 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_postgres_analytics_staging, now model.space_missions.agg_country_launches)
+[0m17:15:53.212076 [info ] [Thread-2 (]: 4 of 7 START sql view model analytics_facts.agg_success_by_year ................ [RUN]
+[0m17:15:53.213673 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.space_missions.agg_sector_by_year'
+[0m17:15:53.213186 [info ] [Thread-1 (]: 5 of 7 START sql view model analytics_dimensions.dim_agencies .................. [RUN]
+[0m17:15:53.216824 [debug] [Thread-3 (]: Began compiling node model.space_missions.agg_country_launches
+[0m17:15:53.217290 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_postgres_analytics_facts, now model.space_missions.agg_success_by_year)
+[0m17:15:53.217712 [debug] [Thread-4 (]: Began compiling node model.space_missions.agg_sector_by_year
+[0m17:15:53.218119 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.space_missions.stg_missions, now model.space_missions.dim_agencies)
+[0m17:15:53.221374 [debug] [Thread-3 (]: Writing injected SQL for node "model.space_missions.agg_country_launches"
+[0m17:15:53.221823 [debug] [Thread-2 (]: Began compiling node model.space_missions.agg_success_by_year
+[0m17:15:53.224708 [debug] [Thread-4 (]: Writing injected SQL for node "model.space_missions.agg_sector_by_year"
+[0m17:15:53.225143 [debug] [Thread-1 (]: Began compiling node model.space_missions.dim_agencies
+[0m17:15:53.227841 [debug] [Thread-2 (]: Writing injected SQL for node "model.space_missions.agg_success_by_year"
+[0m17:15:53.230740 [debug] [Thread-1 (]: Writing injected SQL for node "model.space_missions.dim_agencies"
+[0m17:15:53.231522 [debug] [Thread-4 (]: Began executing node model.space_missions.agg_sector_by_year
+[0m17:15:53.231864 [debug] [Thread-3 (]: Began executing node model.space_missions.agg_country_launches
+[0m17:15:53.234872 [debug] [Thread-4 (]: Writing runtime sql for node "model.space_missions.agg_sector_by_year"
+[0m17:15:53.235174 [debug] [Thread-2 (]: Began executing node model.space_missions.agg_success_by_year
+[0m17:15:53.238091 [debug] [Thread-3 (]: Writing runtime sql for node "model.space_missions.agg_country_launches"
+[0m17:15:53.238470 [debug] [Thread-1 (]: Began executing node model.space_missions.dim_agencies
+[0m17:15:53.241242 [debug] [Thread-2 (]: Writing runtime sql for node "model.space_missions.agg_success_by_year"
+[0m17:15:53.244047 [debug] [Thread-1 (]: Writing runtime sql for node "model.space_missions.dim_agencies"
+[0m17:15:53.244574 [debug] [Thread-3 (]: Using postgres connection "model.space_missions.agg_country_launches"
+[0m17:15:53.244907 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.agg_sector_by_year"
+[0m17:15:53.245184 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: BEGIN
+[0m17:15:53.245484 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: BEGIN
+[0m17:15:53.245752 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m17:15:53.246018 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m17:15:53.246426 [debug] [Thread-2 (]: Using postgres connection "model.space_missions.agg_success_by_year"
+[0m17:15:53.246812 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_agencies"
+[0m17:15:53.247133 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: BEGIN
+[0m17:15:53.247393 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: BEGIN
+[0m17:15:53.247647 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:15:53.247887 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:15:54.049666 [debug] [Thread-1 (]: SQL status: BEGIN in 0.802 seconds
+[0m17:15:54.050890 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_agencies"
+[0m17:15:54.051542 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_agencies"} */
+
+  create view "postgres"."analytics_dimensions"."dim_agencies__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+),
+
+agency_stats as (
+    select
+        company,
+        sector,
+        count(*)                                            as total_launches,
+        sum(case when is_success then 1 else 0 end)         as successful_launches,
+        round(
+            sum(case when is_success then 1 else 0 end)::numeric
+            / count(*) * 100, 1
+        )                                                   as success_rate_pct,
+        min(launch_year)                                    as first_launch_year,
+        max(launch_year)                                    as last_launch_year,
+        round(avg(cost_usd_millions)::numeric, 2)           as avg_cost_usd_millions
+    from missions
+    group by company, sector
+)
+
+select * from agency_stats
+order by total_launches desc
+  );
+[0m17:15:54.079999 [debug] [Thread-4 (]: SQL status: BEGIN in 0.834 seconds
+[0m17:15:54.080740 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.agg_sector_by_year"
+[0m17:15:54.081329 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_sector_by_year"} */
+
+  create view "postgres"."analytics_facts"."agg_sector_by_year__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+)
+
+select
+    launch_year,
+    sector,
+    count(*)                                            as total_launches,
+    round(
+        sum(case when is_success then 1 else 0 end)::numeric
+        / count(*) * 100, 1
+    )                                                   as success_rate_pct
+from missions
+group by launch_year, sector
+order by launch_year, sector
+  );
+[0m17:15:54.098958 [debug] [Thread-2 (]: SQL status: BEGIN in 0.851 seconds
+[0m17:15:54.099592 [debug] [Thread-3 (]: SQL status: BEGIN in 0.854 seconds
+[0m17:15:54.100178 [debug] [Thread-2 (]: Using postgres connection "model.space_missions.agg_success_by_year"
+[0m17:15:54.100665 [debug] [Thread-3 (]: Using postgres connection "model.space_missions.agg_country_launches"
+[0m17:15:54.101231 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_success_by_year"} */
+
+  create view "postgres"."analytics_facts"."agg_success_by_year__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+)
+
+select
+    launch_year,
+    launch_decade,
+    count(*)                                            as total_launches,
+    sum(case when is_success then 1 else 0 end)         as successful_launches,
+    sum(case when not is_success then 1 else 0 end)     as failed_launches,
+    round(
+        sum(case when is_success then 1 else 0 end)::numeric
+        / count(*) * 100, 1
+    )                                                   as success_rate_pct
+from missions
+group by launch_year, launch_decade
+order by launch_year
+  );
+[0m17:15:54.101838 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_country_launches"} */
+
+  create view "postgres"."analytics_facts"."agg_country_launches__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+)
+
+select
+    country,
+    count(*)                                            as total_launches,
+    sum(case when is_success then 1 else 0 end)         as successful_launches,
+    round(
+        sum(case when is_success then 1 else 0 end)::numeric
+        / count(*) * 100, 1
+    )                                                   as success_rate_pct,
+    min(launch_year)                                    as first_launch_year
+from missions
+group by country
+order by total_launches desc
+  );
+[0m17:15:54.148581 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.096 seconds
+[0m17:15:54.154256 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_agencies"
+[0m17:15:54.154905 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_agencies"} */
+alter table "postgres"."analytics_dimensions"."dim_agencies__dbt_tmp" rename to "dim_agencies"
+[0m17:15:54.175021 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.093 seconds
+[0m17:15:54.180321 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.agg_sector_by_year"
+[0m17:15:54.180866 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_sector_by_year"} */
+alter table "postgres"."analytics_facts"."agg_sector_by_year__dbt_tmp" rename to "agg_sector_by_year"
+[0m17:15:54.197396 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.095 seconds
+[0m17:15:54.202404 [debug] [Thread-2 (]: Using postgres connection "model.space_missions.agg_success_by_year"
+[0m17:15:54.203000 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.101 seconds
+[0m17:15:54.203579 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_success_by_year"} */
+alter table "postgres"."analytics_facts"."agg_success_by_year__dbt_tmp" rename to "agg_success_by_year"
+[0m17:15:54.209624 [debug] [Thread-3 (]: Using postgres connection "model.space_missions.agg_country_launches"
+[0m17:15:54.210251 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_country_launches"} */
+alter table "postgres"."analytics_facts"."agg_country_launches__dbt_tmp" rename to "agg_country_launches"
+[0m17:15:54.242154 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.087 seconds
+[0m17:15:54.244329 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: COMMIT
+[0m17:15:54.244859 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_agencies"
+[0m17:15:54.245313 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: COMMIT
+[0m17:15:54.269973 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.088 seconds
+[0m17:15:54.273762 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: COMMIT
+[0m17:15:54.274459 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.agg_sector_by_year"
+[0m17:15:54.274950 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: COMMIT
+[0m17:15:54.298150 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.088 seconds
+[0m17:15:54.301000 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: COMMIT
+[0m17:15:54.301564 [debug] [Thread-2 (]: Using postgres connection "model.space_missions.agg_success_by_year"
+[0m17:15:54.302032 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: COMMIT
+[0m17:15:54.307402 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.097 seconds
+[0m17:15:54.309502 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: COMMIT
+[0m17:15:54.310000 [debug] [Thread-3 (]: Using postgres connection "model.space_missions.agg_country_launches"
+[0m17:15:54.310488 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: COMMIT
+[0m17:15:54.328246 [debug] [Thread-1 (]: SQL status: COMMIT in 0.082 seconds
+[0m17:15:54.332343 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics_dimensions"."dim_agencies__dbt_backup"
+[0m17:15:54.333486 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_agencies"
+[0m17:15:54.334009 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_agencies"} */
+drop view if exists "postgres"."analytics_dimensions"."dim_agencies__dbt_backup" cascade
+[0m17:15:54.357410 [debug] [Thread-4 (]: SQL status: COMMIT in 0.082 seconds
+[0m17:15:54.361166 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics_facts"."agg_sector_by_year__dbt_backup"
+[0m17:15:54.362369 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.agg_sector_by_year"
+[0m17:15:54.362886 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_sector_by_year"} */
+drop view if exists "postgres"."analytics_facts"."agg_sector_by_year__dbt_backup" cascade
+[0m17:15:54.387273 [debug] [Thread-2 (]: SQL status: COMMIT in 0.085 seconds
+[0m17:15:54.390757 [debug] [Thread-2 (]: Applying DROP to: "postgres"."analytics_facts"."agg_success_by_year__dbt_backup"
+[0m17:15:54.391804 [debug] [Thread-2 (]: Using postgres connection "model.space_missions.agg_success_by_year"
+[0m17:15:54.392287 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_success_by_year"} */
+drop view if exists "postgres"."analytics_facts"."agg_success_by_year__dbt_backup" cascade
+[0m17:15:54.401050 [debug] [Thread-3 (]: SQL status: COMMIT in 0.090 seconds
+[0m17:15:54.404486 [debug] [Thread-3 (]: Applying DROP to: "postgres"."analytics_facts"."agg_country_launches__dbt_backup"
+[0m17:15:54.405543 [debug] [Thread-3 (]: Using postgres connection "model.space_missions.agg_country_launches"
+[0m17:15:54.406038 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.agg_country_launches"} */
+drop view if exists "postgres"."analytics_facts"."agg_country_launches__dbt_backup" cascade
+[0m17:15:54.416042 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.082 seconds
+[0m17:15:54.418134 [debug] [Thread-1 (]: On model.space_missions.dim_agencies: Close
+[0m17:15:54.419217 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1157076b0>]}
+[0m17:15:54.420116 [info ] [Thread-1 (]: 5 of 7 OK created sql view model analytics_dimensions.dim_agencies ............. [[32mCREATE VIEW[0m in 1.20s]
+[0m17:15:54.420959 [debug] [Thread-1 (]: Finished running node model.space_missions.dim_agencies
+[0m17:15:54.421551 [debug] [Thread-1 (]: Began running node model.space_missions.dim_rockets
+[0m17:15:54.422272 [info ] [Thread-1 (]: 6 of 7 START sql view model analytics_dimensions.dim_rockets ................... [RUN]
+[0m17:15:54.422788 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.space_missions.dim_agencies, now model.space_missions.dim_rockets)
+[0m17:15:54.423186 [debug] [Thread-1 (]: Began compiling node model.space_missions.dim_rockets
+[0m17:15:54.426663 [debug] [Thread-1 (]: Writing injected SQL for node "model.space_missions.dim_rockets"
+[0m17:15:54.427706 [debug] [Thread-1 (]: Began executing node model.space_missions.dim_rockets
+[0m17:15:54.431635 [debug] [Thread-1 (]: Writing runtime sql for node "model.space_missions.dim_rockets"
+[0m17:15:54.432717 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_rockets"
+[0m17:15:54.433084 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: BEGIN
+[0m17:15:54.433430 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:15:54.441365 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.078 seconds
+[0m17:15:54.442766 [debug] [Thread-4 (]: On model.space_missions.agg_sector_by_year: Close
+[0m17:15:54.443449 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11457a000>]}
+[0m17:15:54.444029 [info ] [Thread-4 (]: 3 of 7 OK created sql view model analytics_facts.agg_sector_by_year ............ [[32mCREATE VIEW[0m in 1.23s]
+[0m17:15:54.444586 [debug] [Thread-4 (]: Finished running node model.space_missions.agg_sector_by_year
+[0m17:15:54.444979 [debug] [Thread-4 (]: Began running node model.space_missions.fct_missions
+[0m17:15:54.445505 [info ] [Thread-4 (]: 7 of 7 START sql view model analytics_facts.fct_missions ....................... [RUN]
+[0m17:15:54.446021 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.space_missions.agg_sector_by_year, now model.space_missions.fct_missions)
+[0m17:15:54.446400 [debug] [Thread-4 (]: Began compiling node model.space_missions.fct_missions
+[0m17:15:54.449233 [debug] [Thread-4 (]: Writing injected SQL for node "model.space_missions.fct_missions"
+[0m17:15:54.449966 [debug] [Thread-4 (]: Began executing node model.space_missions.fct_missions
+[0m17:15:54.453233 [debug] [Thread-4 (]: Writing runtime sql for node "model.space_missions.fct_missions"
+[0m17:15:54.453850 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.fct_missions"
+[0m17:15:54.454150 [debug] [Thread-4 (]: On model.space_missions.fct_missions: BEGIN
+[0m17:15:54.454424 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m17:15:54.473497 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.081 seconds
+[0m17:15:54.474910 [debug] [Thread-2 (]: On model.space_missions.agg_success_by_year: Close
+[0m17:15:54.475554 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115ce41d0>]}
+[0m17:15:54.476046 [info ] [Thread-2 (]: 4 of 7 OK created sql view model analytics_facts.agg_success_by_year ........... [[32mCREATE VIEW[0m in 1.26s]
+[0m17:15:54.476495 [debug] [Thread-2 (]: Finished running node model.space_missions.agg_success_by_year
+[0m17:15:54.486639 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.080 seconds
+[0m17:15:54.487860 [debug] [Thread-3 (]: On model.space_missions.agg_country_launches: Close
+[0m17:15:54.488437 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115d52030>]}
+[0m17:15:54.488887 [info ] [Thread-3 (]: 2 of 7 OK created sql view model analytics_facts.agg_country_launches .......... [[32mCREATE VIEW[0m in 1.28s]
+[0m17:15:54.489316 [debug] [Thread-3 (]: Finished running node model.space_missions.agg_country_launches
+[0m17:15:55.263454 [debug] [Thread-4 (]: SQL status: BEGIN in 0.809 seconds
+[0m17:15:55.264599 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.fct_missions"
+[0m17:15:55.265594 [debug] [Thread-4 (]: On model.space_missions.fct_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.fct_missions"} */
+
+  create view "postgres"."analytics_facts"."fct_missions__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+)
+
+select
+    mission_name,
+    company,
+    rocket,
+    country,
+    launch_date,
+    launch_year,
+    launch_decade,
+    rocket_status,
+    mission_status,
+    is_success,
+    sector,
+    cost_usd_millions
+from missions
+  );
+[0m17:15:55.278011 [debug] [Thread-1 (]: SQL status: BEGIN in 0.844 seconds
+[0m17:15:55.278791 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_rockets"
+[0m17:15:55.279540 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_rockets"} */
+
+  create view "postgres"."analytics_dimensions"."dim_rockets__dbt_tmp"
+    
+    
+  as (
+    with missions as (
+    select * from "postgres"."analytics_staging"."stg_missions"
+),
+
+rocket_stats as (
+    select
+        rocket,
+        rocket_status,
+        count(*)                                            as total_launches,
+        sum(case when is_success then 1 else 0 end)         as successful_launches,
+        round(
+            sum(case when is_success then 1 else 0 end)::numeric
+            / count(*) * 100, 1
+        )                                                   as success_rate_pct,
+        min(launch_year)                                    as first_launch_year,
+        max(launch_year)                                    as last_launch_year,
+        count(distinct company)                             as num_operators
+    from missions
+    group by rocket, rocket_status
+)
+
+select * from rocket_stats
+order by total_launches desc
+  );
+[0m17:15:55.361066 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.094 seconds
+[0m17:15:55.365744 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.fct_missions"
+[0m17:15:55.366301 [debug] [Thread-4 (]: On model.space_missions.fct_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.fct_missions"} */
+alter table "postgres"."analytics_facts"."fct_missions__dbt_tmp" rename to "fct_missions"
+[0m17:15:55.375866 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.096 seconds
+[0m17:15:55.380322 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_rockets"
+[0m17:15:55.380805 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_rockets"} */
+alter table "postgres"."analytics_dimensions"."dim_rockets__dbt_tmp" rename to "dim_rockets"
+[0m17:15:55.448238 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.081 seconds
+[0m17:15:55.452898 [debug] [Thread-4 (]: On model.space_missions.fct_missions: COMMIT
+[0m17:15:55.458041 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.fct_missions"
+[0m17:15:55.458597 [debug] [Thread-4 (]: On model.space_missions.fct_missions: COMMIT
+[0m17:15:55.469107 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.088 seconds
+[0m17:15:55.471124 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: COMMIT
+[0m17:15:55.471564 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_rockets"
+[0m17:15:55.471940 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: COMMIT
+[0m17:15:55.546277 [debug] [Thread-4 (]: SQL status: COMMIT in 0.087 seconds
+[0m17:15:55.550766 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics_facts"."fct_missions__dbt_backup"
+[0m17:15:55.552007 [debug] [Thread-4 (]: Using postgres connection "model.space_missions.fct_missions"
+[0m17:15:55.552564 [debug] [Thread-4 (]: On model.space_missions.fct_missions: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.fct_missions"} */
+drop view if exists "postgres"."analytics_facts"."fct_missions__dbt_backup" cascade
+[0m17:15:55.557419 [debug] [Thread-1 (]: SQL status: COMMIT in 0.085 seconds
+[0m17:15:55.560751 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics_dimensions"."dim_rockets__dbt_backup"
+[0m17:15:55.561797 [debug] [Thread-1 (]: Using postgres connection "model.space_missions.dim_rockets"
+[0m17:15:55.562354 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: /* {"app": "dbt", "dbt_version": "1.8.9", "profile_name": "space_missions", "target_name": "dev", "node_id": "model.space_missions.dim_rockets"} */
+drop view if exists "postgres"."analytics_dimensions"."dim_rockets__dbt_backup" cascade
+[0m17:15:55.641785 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.089 seconds
+[0m17:15:55.643982 [debug] [Thread-4 (]: On model.space_missions.fct_missions: Close
+[0m17:15:55.645003 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115dc95b0>]}
+[0m17:15:55.645854 [info ] [Thread-4 (]: 7 of 7 OK created sql view model analytics_facts.fct_missions .................. [[32mCREATE VIEW[0m in 1.20s]
+[0m17:15:55.646641 [debug] [Thread-4 (]: Finished running node model.space_missions.fct_missions
+[0m17:15:55.651983 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.089 seconds
+[0m17:15:55.653931 [debug] [Thread-1 (]: On model.space_missions.dim_rockets: Close
+[0m17:15:55.654894 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78b29246-1e30-4d1a-ac18-cdc770f39a48', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115dd73b0>]}
+[0m17:15:55.655664 [info ] [Thread-1 (]: 6 of 7 OK created sql view model analytics_dimensions.dim_rockets .............. [[32mCREATE VIEW[0m in 1.23s]
+[0m17:15:55.656433 [debug] [Thread-1 (]: Finished running node model.space_missions.dim_rockets
+[0m17:15:55.658100 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:55.658539 [debug] [MainThread]: On master: BEGIN
+[0m17:15:55.658923 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m17:15:56.469242 [debug] [MainThread]: SQL status: BEGIN in 0.810 seconds
+[0m17:15:56.469953 [debug] [MainThread]: On master: COMMIT
+[0m17:15:56.470445 [debug] [MainThread]: Using postgres connection "master"
+[0m17:15:56.470852 [debug] [MainThread]: On master: COMMIT
+[0m17:15:56.554385 [debug] [MainThread]: SQL status: COMMIT in 0.083 seconds
+[0m17:15:56.555560 [debug] [MainThread]: On master: Close
+[0m17:15:56.556844 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:15:56.557477 [debug] [MainThread]: Connection 'model.space_missions.dim_rockets' was properly closed.
+[0m17:15:56.557920 [debug] [MainThread]: Connection 'model.space_missions.agg_success_by_year' was properly closed.
+[0m17:15:56.558238 [debug] [MainThread]: Connection 'model.space_missions.agg_country_launches' was properly closed.
+[0m17:15:56.558529 [debug] [MainThread]: Connection 'model.space_missions.fct_missions' was properly closed.
+[0m17:15:56.558990 [info ] [MainThread]: 
+[0m17:15:56.559402 [info ] [MainThread]: Finished running 7 view models in 0 hours 0 minutes and 9.01 seconds (9.01s).
+[0m17:15:56.560969 [debug] [MainThread]: Command end result
+[0m17:15:56.585977 [info ] [MainThread]: 
+[0m17:15:56.586385 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:15:56.586641 [info ] [MainThread]: 
+[0m17:15:56.586903 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+[0m17:15:56.603094 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 10.190976, "process_in_blocks": "0", "process_kernel_time": 0.362059, "process_mem_max_rss": "128139264", "process_out_blocks": "0", "process_user_time": 2.657317}
+[0m17:15:56.603573 [debug] [MainThread]: Command `dbt run` succeeded at 17:15:56.603498 after 10.19 seconds
+[0m17:15:56.603874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1157079e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1144cb2f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1153e3c80>]}
+[0m17:15:56.604162 [debug] [MainThread]: Flushing usage events

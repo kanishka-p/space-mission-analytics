@@ -1,0 +1,16 @@
+name: space_missions
+version: '1.0.0'
+profile: space_missions
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target"]
+
+models:
+  space_missions:
+    staging:
+      +schema: staging
+    dimensions:
+      +schema: dimensions
+    facts:
+      +schema: facts
