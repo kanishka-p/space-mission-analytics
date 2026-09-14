@@ -40,11 +40,10 @@ The project answers questions like:
 
 | Finding | Detail |
 |---|---|
+
 | 🇷🇺 USSR dominance | RVSN USSR launched 1,777 missions — more than any other agency in history |
 | 💰 Commercial disruption | SpaceX avg cost: **$63M** vs NASA avg: **$512M** — an 8× reduction |
 | 📈 Reliability surge | Global success rate rose from ~60% (1950s) to 95%+ (post-2000) |
-| 🏆 Most reliable | ULA achieved **99.3% success rate** across 151 launches |
-| 🔄 Sector shift | Commercial launches surpassed government launches around **2015** |
 
 ---
 
